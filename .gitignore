@@ -1,0 +1,4 @@
+!.gitkeep
+mysql/data/*
+mongo/data/*
+redis/data/*

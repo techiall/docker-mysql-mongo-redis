@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: docker-mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf:ro
+      - ./mysql/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+
+  mongo:
+    image: mongo:latest
+    container_name: docker-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo/data:/data/db
+
+  redis:
+    image: redis:latest
+    container_name: docker-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis/data:/data
