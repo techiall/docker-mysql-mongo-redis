@@ -15,4 +15,4 @@
 >
 > mysql 用户名 `root` 用户密码为 `root`  
 >
-> neo3j用户名 `neo4j` 用户密码为 `neo4j`  
+> neo4j用户名 `neo4j` 用户密码为 `neo4j`  
