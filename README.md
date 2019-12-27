@@ -2,17 +2,49 @@
 
 
 
-`docker-compose up -d` 即可启动以下数据库。  
+Quick installation mysql / mongo / redis or neo4j.
 
-* mysql
-* mongo
-* redis
+The repository i using.
 
 
-> 数据库数据自动映射到本项目 data 文件夹中
->
-> mysql 用户名 `root` 用户密码为 `root`  
-> 
-> 附加 neo4j 数据库
-> 
-> neo4j用户名 `neo4j` 用户密码为 `neo4j`  
+
+### Prerequisites
+
+* [docker](https://docs.docker.com/install/)
+* [docker-compose](https://docs.docker.com/compose/install/)
+
+
+
+### Installing
+
+1. git clone `https://github.com/techial1042/docker-mysql-mongo-redis`
+2. enter dir `cd docker-mysql-mongo-redis`
+
+
+
+### Running
+
+```shell
+docker-compose up -d
+```
+
+View logs from containers `docker-compose logs -f`
+
+
+
+## With custom password in database
+
+1. open `docker-compose.yml`
+2. find it `environment:` and editor property
+
+
+databse deafult username and password
+
+| database | username | password |
+| :------: | :------: | :------: |
+|  mysql   |   root   |   root   |
+|  mongo   |    /     |    /     |
+|  redis   |    /     |    /     |
+|  neo4j   |  neo4j   |  neo4j   |
+
+
