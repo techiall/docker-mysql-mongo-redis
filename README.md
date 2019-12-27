@@ -48,3 +48,9 @@ databse deafult username and password
 |  neo4j   |  neo4j   |  neo4j   |
 
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/techial1042/docker-mysql-mongo-redis/blob/master/LICENSE) file for details.
+
+
+
