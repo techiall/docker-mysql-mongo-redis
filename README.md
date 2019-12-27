@@ -1,4 +1,4 @@
-### docker-mysql-mongo-redis
+# docker-mysql-mongo-redis
 
 
 
@@ -8,21 +8,21 @@ The repository i using.
 
 
 
-### Prerequisites
+## Prerequisites
 
 * [docker](https://docs.docker.com/install/)
 * [docker-compose](https://docs.docker.com/compose/install/)
 
 
 
-### Installing
+## Installing
 
 1. git clone `https://github.com/techial1042/docker-mysql-mongo-redis`
 2. enter dir `cd docker-mysql-mongo-redis`
 
 
 
-### Running
+## Running
 
 ```shell
 docker-compose up -d
