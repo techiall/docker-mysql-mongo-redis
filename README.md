@@ -2,11 +2,11 @@
 
 
 
-Quick installation mysql / mongo / redis or neo4j.
+* Quick installation mysql / mongo / redis or neo4j
 
-The repository i using.
+* Can be used in development environment
 
-
+* **Do not use in production environment**
 
 ## Prerequisites
 
