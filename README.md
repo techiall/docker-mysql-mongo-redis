@@ -45,7 +45,7 @@ databse deafult username and password
 |  mysql   |   root   |   root   |
 |  mongo   |    /     |    /     |
 |  redis   |    /     |    /     |
-|  neo4j   |  neo4j   |  neo4j   |
+|  neo4j   |  neo4j   | techial  |
 
 
 ## License
