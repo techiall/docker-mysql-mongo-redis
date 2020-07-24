@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.7"
 
 services:
   mysql:
@@ -7,10 +7,10 @@ services:
       - "3306:3306"
     volumes:
       - ./mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf:ro
+      - ./mysql/sql:/tmp/sql
       - ./mysql/data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: 'root'
-
+      MYSQL_ROOT_PASSWORD: "root"
   mongo:
     image: mongo:latest
     ports:
