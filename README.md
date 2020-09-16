@@ -1,8 +1,6 @@
 # docker-mysql-mongo-redis
 
-
-
-* Quick installation mysql / mongo / redis or neo4j
+* Quick installation mysql / mongo and redis
 
 * Can be used in development environment
 
@@ -13,14 +11,10 @@
 * [docker](https://docs.docker.com/install/)
 * [docker-compose](https://docs.docker.com/compose/install/)
 
-
-
 ## Installing
 
 1. git clone `https://github.com/techial1042/docker-mysql-mongo-redis`
 2. enter dir `cd docker-mysql-mongo-redis`
-
-
 
 ## Running
 
@@ -30,13 +24,10 @@ docker-compose up -d
 
 View logs from containers `docker-compose logs -f`
 
-
-
 ## With custom password in database
 
 1. open `docker-compose.yml`
 2. find it `environment:` and editor property
-
 
 databse deafult username and password
 
@@ -45,12 +36,7 @@ databse deafult username and password
 |  mysql   |   root   |   root   |
 |  mongo   |    /     |    /     |
 |  redis   |    /     |    /     |
-|  neo4j   |  neo4j   | techial  |
-
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/techial1042/docker-mysql-mongo-redis/blob/master/LICENSE) file for details.
-
-
-
