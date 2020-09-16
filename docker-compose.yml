@@ -8,9 +8,10 @@ services:
     volumes:
       - ./mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
       - ./mysql/data:/var/lib/mysql
-      - ./mysql/sql:/tmp/sql
     environment:
       MYSQL_ROOT_PASSWORD: "root"
+      TZ: 'Asia/Hong_Kong'
+
   mongo:
     image: mongo:latest
     ports:

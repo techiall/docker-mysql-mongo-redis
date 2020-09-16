@@ -1,6 +1,14 @@
 !.gitkeep
+
 mysql/data/*
 mongo/data/*
 redis/data/*
-neo4j/*
-!/neo4j/.gitkeep
+
+!/mysql/.gitkeep
+!/mysql/data/.gitkeep
+
+!/mongo/.gitkeep
+!/mongo/data/.gitkeep
+
+!/redis/.gitkeep
+!/redis/data/.gitkeep
