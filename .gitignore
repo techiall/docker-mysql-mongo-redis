@@ -1,14 +1,3 @@
 !.gitkeep
 
-mysql/data/*
-mongo/data/*
-redis/data/*
-
-!/mysql/.gitkeep
-!/mysql/data/.gitkeep
-
-!/mongo/.gitkeep
-!/mongo/data/.gitkeep
-
-!/redis/.gitkeep
-!/redis/data/.gitkeep
+/data/

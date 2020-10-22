@@ -6,8 +6,8 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
-      - ./mysql/data:/var/lib/mysql
+      - ./config/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
+      - ./data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: "root"
       TZ: 'Asia/Hong_Kong'
@@ -17,11 +17,11 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ./mongo/data:/data/db
+      - ./data/mongo:/data/db
 
   redis:
     image: redis:alpine
     ports:
       - "6379:6379"
     volumes:
-      - ./redis/data:/data
+      - ./data/redis:/data
