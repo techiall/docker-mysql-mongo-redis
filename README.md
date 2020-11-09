@@ -1,8 +1,8 @@
 # docker-mysql-mongo-redis
 
-* Quick installation mysql / mongo and redis
+* Run MySQL, MongoDB, and Redis in docker
 
-* Can be used in development environment
+* The project can used in development environment
 
 * **Do not use in production environment**
 
@@ -10,26 +10,27 @@
 
 * [docker](https://docs.docker.com/install/)
 * [docker-compose](https://docs.docker.com/compose/install/)
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/)
 
 ## Installing
 
-1. git clone `https://github.com/techial1042/docker-mysql-mongo-redis`
-2. enter dir `cd docker-mysql-mongo-redis`
+git clone the project
+
+```shell
+git clone https://github.com/techial1042/docker-mysql-mongo-redis
+```
 
 ## Running
 
 ```shell
+cd docker-mysql-mongo-redis
 docker-compose up -d
+
+# show docker-compose log
+docker-compose logs -f
 ```
 
-View logs from containers `docker-compose logs -f`
-
-## With custom password in database
-
-1. open `docker-compose.yml`
-2. find it `environment:` and editor property
-
-databse deafult username and password
+## Databases username and password
 
 | database | username | password |
 | :------: | :------: | :------: |
