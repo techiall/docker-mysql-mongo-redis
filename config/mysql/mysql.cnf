@@ -1,16 +1,16 @@
 [mysqld]
-pid-file		    = /var/run/mysqld/mysqld.pid
-socket			    = /var/run/mysqld/mysqld.sock
-datadir			    = /var/lib/mysql
+pid-file = /var/run/mysqld/mysqld.pid
+socket = /var/run/mysqld/mysqld.sock
+datadir = /var/lib/mysql
 
 symbolic-links=0
-character_set_server=utf8mb4
-collation-server=utf8mb4_unicode_ci
+character_set_server = utf8mb4
+collation-server = utf8mb4_unicode_ci
 
-explicit_defaults_for_timestamp=true
+explicit_defaults_for_timestamp = true
 
 [client]
-default-character-set=utf8mb4
+default-character-set = utf8mb4
 
 [mysql]
-default-character-set=utf8mb4
+default-character-set = utf8mb4
