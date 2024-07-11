@@ -3,7 +3,7 @@ pid-file = /var/run/mysqld/mysqld.pid
 socket = /var/run/mysqld/mysqld.sock
 datadir = /var/lib/mysql
 
-symbolic-links=0
+symbolic-links = 0
 character_set_server = utf8mb4
 collation-server = utf8mb4_unicode_ci
 
